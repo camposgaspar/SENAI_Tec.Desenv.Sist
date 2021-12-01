@@ -1,0 +1,38 @@
+package SA3_1;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        // Escolha do usuário
+        int choice = 0;
+
+        //Variáveis para armazenamento do nome e idade
+        String name;
+        int age;
+
+        //Loop - Enquanto a escolha for diferente de 3, repita.
+        do {
+            //Texto que aparecerá em todo loop
+            System.out.println("Opção 1: Cadastro");
+            System.out.println("Opção 2: ?");
+            System.out.println("Opção 3: Sair");
+
+            //Receber input
+            choice = scan.nextInt();
+
+            //Se a escolha for 1... (Também poderia ser usado um switch case com break, em caso de mais opções.)
+            if (choice == 1){
+                System.out.println("Informe o nome: ");
+                name = scan.next();
+                System.out.println("Informe a idade: ");
+                age = scan.nextInt();
+            }
+
+            //Se o usuário escolher 3, saia do loop.
+        } while (choice != 3);
+    }
+}

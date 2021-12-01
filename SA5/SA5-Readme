@@ -1,0 +1,19 @@
+#SENAI - UC. - Lógica de Programação - T DESI 2021/2 2
+## Situação de Aprendizagem 3 - SENAI
+
+---
+
+###**Critérios de avaliação:**  
+
+|SA5-1|SA5-2|
+|---|---|
+|• Criar código fonte com a estrutura de Pilha|• Criar código fonte com a estrutura de Fila|
+|• Obedecer os conceitos de Pilha na implementação|• Obedecer os conceitos de Fila na implementação|
+|• Criar estrutura homogênea de acordo com o tipo de dado necessário e com as 20 posições|• Criar estrutura homogênea de acordo com o tipo de dado necessário e com as 25 posições|
+|• Implementar a função de empilhar de forma correta|• Implementar a função de adicionar de forma correta|
+|• Implementar a função de desempilhar de forma correta|• Implementar a função de remover de forma correta|
+|• Implementou a função limpar de forma correta|• Implementar a função limpar de forma correta|
+|• Implementar a função listar de forma correta|• Implementar a função listar de forma correta|
+|• Implementar a função para verificar se a pilha é vazia de forma correta|• Implementar a função para verificar se a fila é vazia de forma correta|
+|• Realizar todos os tratamentos necessários para não estourar os limites da estrutura homogênea|• Realizar todos os tratamentos necessários para não estourar os limites da estrutura homogêneas|
+|• Entregar o código fonte com a estrutura de dados no prazo estabelecido.|• Entregar o código fonte com a estrutura de dados no prazo estabelecido|

@@ -1,0 +1,16 @@
+#SENAI - UC. - Lógica de Programação - T DESI 2021/2 2
+## Situação de Aprendizagem 3 - SENAI
+
+---
+
+###**Critérios de avaliação:**  
+
+|SA3-1|SA3-2|
+|---|---|
+|• Utilizar um comando de repetição correto para a resolução do problema apresentado|• Utilizar estruturas homogêneas para armazenar as informações ob�das na etapa de cadastro de usuários|
+|• Apresentar o menu com as opções ao início de cada repetição|• Conter a funcionalidade de ao iniciar a execução do algoritmo, solicitar quantas pessoas serão cadastradas, para com este valor iniciar as estruturas homogêneas|
+|• Conter a funcionalidade de ao digitar o número 1, solicita as informações do usuário (Nome e idade)|• Conter a funcionalidade de ao clicar na opção 1, para cadastrar um novo usuário, sempre verificar se a estrutura homogênea possui alguma posição disponível para armazenar este novo usuário|
+|• Utilizar da repetição para apresentar o menu novamente, ao término da digitação das informações do usuário|• Conter a funcionalidade de na opção 1, após digitar os dados do usuário, adiciona-lo sempre a próxima posição disponível|
+|• Utilizar tipos de dados de acordo com as necessidades;|• Realizar a implementação da opção 2, listando o nome e a idade de todos os usuários cadastrados|
+|• Conter a funcionalidade de ao digitar o número três finaliza a repetição, e consequentemente o algoritmo|• Conter a funcionalidade de quando toda a implementação for realizada a etapa 1 deve ser mantida, apenas adicionando as novas configurações|
+|• Entregar o código fonte do projeto desenvolvido no prazo estabelecido.|• Entregar o código fonte do projeto desenvolvido no prazo estabelecido.|

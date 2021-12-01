@@ -1,0 +1,19 @@
+#SENAI - UC. - Lógica de Programação - T DESI 2021/2 2
+## Situação de Aprendizagem 3 - SENAI
+
+---
+
+###**Critérios de avaliação:**  
+
+|SA4-1|SA4-2|
+|---|---|
+|• Manter a implementação da S.A. 2 funcional|• Manter as implementações anteriores funcionais|
+|• Implementar um método para realizar a busca de uma pessoa pelo nome|• Implementar um método para realizar a exclusão de uma pessoa pelo nome|
+|• Conter método que possui um valor inteiro como tipo de retorno|• Conter método que não possui tipo de retorno|
+|• Conter método que recebe o nome de uma pessoa como parâmetro|• Conter método que recebe o nome de uma pessoa como parâmetro|
+|• Retornar -1 caso não encontre nenhuma correspondência|• Apresentar em toda a estrutura homogênea a existência de uma correspondência|
+|• Retornar o número da posição referente ao cadastro da pessoa caso encontre|• Remover pessoa da estrutura homogênea caso encontrar alguma correspondência|
+|• Adicionar ao menu geral a opção 4 – Buscar usuário pelo nome|• Reorganizar a estrutura homogênea retornando uma posição das pessoas cadastradas posteriormente a pessoa removida|
+|• Solicitar o nome do usuário para a realização da consulta|• Adicionar ao menu geral a opção 5 – Remover usuário|
+|• Entregar o código fonte do projeto atualizado no prazo estabelecido|• Solicitar o nome do usuário para a realização da remoção|
+| |• Entregar o código fonte do projeto atualizado no prazo estabelecido|

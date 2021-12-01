@@ -1,0 +1,57 @@
+package SA3_2;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        // Escolha do usuário
+        int choice = 0;
+
+        //Variáveis para armazenamento do nome e idade
+        String name;
+        int age;
+
+        //Logica para determinar numero de repetições. Não utilizada porque map é mais eficiente.
+        // int numRep;
+        // numRep = scan.nextInt();
+        // int[] arrayRep = new int[numRep];
+
+        //Evita a necessidade de informar o tamanho do array, permitindo o cadastro de qualquer número de usuários
+        Map<String, Integer> mapNameAge = new HashMap<String, Integer>();
+
+        //Loop - Enquanto a escolha for diferente de 3, repita.
+        do {
+            //Texto que aparecerá em todo loop
+            System.out.println("Opção 1: Cadastro");
+            System.out.println("Opção 2: Usuários cadastrados");
+            System.out.println("Opção 3: Sair");
+
+            //Receber input
+            choice = scan.nextInt();
+
+            switch (choice){
+                //Se a escolha for 1,2...
+                case 1:
+                    System.out.println("Informe o nome: ");
+                    name = scan.next();
+                    System.out.println("Informe a idade: ");
+                    age = scan.nextInt();
+
+                    mapNameAge.put(name, age);
+                    break;
+                case 2:
+                    for (Map.Entry<String, Integer> entry : mapNameAge.entrySet()){
+                        System.out.println("Nome: " + entry.getKey());
+                        System.out.println("Idade: " + entry.getValue() +"\n");
+                    }
+            }
+
+            //Se o usuário escolher 3, saia do loop.
+        } while (choice != 3);
+    }
+}
