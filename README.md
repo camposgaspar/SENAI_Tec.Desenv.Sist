@@ -1,4 +1,4 @@
-#SENAI - UC. - Técnico em Desenvolvimento de Sistemas
+# SENAI - UC. - Técnico em Desenvolvimento de Sistemas
 ## Situação de Aprendizagem - SENAI
 
 ---
